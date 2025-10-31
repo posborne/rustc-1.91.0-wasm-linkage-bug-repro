@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "fastly-repro",
+    "standalone-repro",
+    "standalone-repro/mock-wasm-imports",
+    "standalone-repro/mock-wasm-imports-b"
+]
+resolver = "2"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+lto = false
+panic = "abort"
+opt-level = 0
+codegen-units = 16  # Required for standalone-repro, optional for fastly-repro

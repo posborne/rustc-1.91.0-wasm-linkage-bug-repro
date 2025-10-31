@@ -1,0 +1,13 @@
+[package]
+name = "fastly-repro"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "fastly-repro"
+path = "src/main.rs"
+
+[dependencies]
+fastly-sys = "0.9"
+fastly-shared = "0.9"
+

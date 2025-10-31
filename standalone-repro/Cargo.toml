@@ -1,0 +1,11 @@
+[package]
+name = "standalone-repro"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+mock-wasm-imports = { path = "mock-wasm-imports" }
+mock-wasm-imports-b = { path = "mock-wasm-imports-b" }
