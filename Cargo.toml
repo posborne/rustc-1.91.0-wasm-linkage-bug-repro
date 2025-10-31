@@ -3,7 +3,6 @@ members = [
     "fastly-repro",
     "standalone-repro",
     "standalone-repro/mock-wasm-imports",
-    "standalone-repro/mock-wasm-imports-b"
 ]
 resolver = "2"
 

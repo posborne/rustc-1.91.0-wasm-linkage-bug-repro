@@ -8,4 +8,3 @@ crate-type = ["cdylib"]
 
 [dependencies]
 mock-wasm-imports = { path = "mock-wasm-imports" }
-mock-wasm-imports-b = { path = "mock-wasm-imports-b" }
